@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LifeCycleThread",
+            "request": "launch",
+            "mainClass": "LifeCycleThread"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EvenOdd",
+            "request": "launch",
+            "mainClass": "EvenOdd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RunnableThread",
+            "request": "launch",
+            "mainClass": "RunnableThread"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ExtendThread",
+            "request": "launch",
+            "mainClass": "ExtendThread"
+        }
+    ]
+}

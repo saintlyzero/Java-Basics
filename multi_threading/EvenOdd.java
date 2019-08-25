@@ -5,13 +5,10 @@
  /**
   * MultiThreading
   */
-import java.util.*;
 
  class MultiThreadingEvenOdd implements Runnable{
  
     private static boolean evenFlag = true;
-    public static  Vector<Integer> vec = new Vector<Integer>();
-
 
     public synchronized void run() {
         if (evenFlag == true) {
