@@ -1,0 +1,29 @@
+What is an Exception?
+An exception is an unwanted or unexpected event, which occurs during the execution of a program 
+i.e at run time, that disrupts the normal flow of the program’s instructions.
+
+Error vs Exception
+Error: An Error indicates serious problem that a reasonable application should not try to catch.
+Exception: Exception indicates conditions that a reasonable application might try to catch.
+
+Default Exception Handling : 
+Whenever inside a method, if an exception has occurred, 
+the method creates an Object known as Exception Object and hands it off to the run-time system(JVM). 
+The exception object contains name and description of the exception, and current state of the program where exception has occurred. 
+Creating the Exception Object and handling it to the run-time system is called throwing an Exception.
+There might be the list of the methods that had been called to get to the method where exception was occurred. 
+This ordered list of the methods is called Call Stack.
+
+
+
+Checked vs Unchecked Exceptions:
+
+Checked: are the exceptions that are checked at compile time. 
+If some code within a method throws a checked exception, 
+then the method must either handle the exception or it must specify the exception using throws keyword.
+Example: IOException
+
+Unchecked: are the exceptions that are not checked at compiled time.
+It is not forced by the compiler to either handle or specify the exception. 
+It is up to the programmers to be civilized, and specify or catch the exceptions.
+Example: ArithmeticException
