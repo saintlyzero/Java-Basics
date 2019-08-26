@@ -1,0 +1,23 @@
+Using BufferedReader: 
+This method reads text from a character-input stream. 
+It does buffering for efficient reading of characters, arrays, and lines.
+The buffer size may be specified, or the default size may be used. 
+The default is large enough for most purposes.
+In general, each read request made of a Reader causes a corresponding read request to be made of the underlying character or byte stream. 
+It is therefore advisable to wrap a BufferedReader around any Reader whose read() operations may be costly, such as FileReaders and InputStreamReaders.
+
+
+Using FileReader class: 
+Convenience class for reading character files. 
+The constructors of this class assume that the default character encoding and the default byte-buffer size are appropriate.
+
+
+Using Scanner class: 
+A simple text scanner which can parse primitive types and strings using regular expressions.
+A Scanner breaks its input into tokens using a delimiter pattern, which by default matches whitespace. 
+The resulting tokens may then be converted into values of different types using the various next methods.
+
+
+Using InputStreamReaders
+A Java InputStream is typically connected to some data source, like a file, network connection, pipe etc. 
+Java InputStream's are used for reading byte based data, one byte at a time.

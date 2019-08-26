@@ -2,6 +2,36 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - InputStreamReaderDemo",
+            "request": "launch",
+            "mainClass": "InputStreamReaderDemo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ScannerDemo",
+            "request": "launch",
+            "mainClass": "ScannerDemo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FileReaderDemo",
+            "request": "launch",
+            "mainClass": "FileReaderDemo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BufferedReaderDemo",
+            "request": "launch",
+            "mainClass": "BufferedReaderDemo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ComparableDemo",
+            "request": "launch",
+            "mainClass": "ComparableDemo"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - LifeCycleThread",
             "request": "launch",
             "mainClass": "LifeCycleThread"
