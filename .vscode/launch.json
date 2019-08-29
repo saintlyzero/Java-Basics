@@ -2,6 +2,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LambdaDemo",
+            "request": "launch",
+            "mainClass": "LambdaDemo",
+            "projectName": "Java-Basics_82a81ff7"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LocalDateTimeDemo",
+            "request": "launch",
+            "mainClass": "LocalDateTimeDemo",
+            "projectName": "Java-Basics_82a81ff7"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Java8Tester",
+            "request": "launch",
+            "mainClass": "Java8Tester",
+            "projectName": "Java-Basics_82a81ff7"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LocalDateTime",
+            "request": "launch",
+            "mainClass": "LocalDateTime",
+            "projectName": "Java-Basics_82a81ff7"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestAnnotationsDemo",
+            "request": "launch",
+            "mainClass": "TestAnnotationsDemo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestAnnotations",
+            "request": "launch",
+            "mainClass": "TestAnnotations"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DeprecatedDemo",
+            "request": "launch",
+            "mainClass": "DeprecatedDemo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SuppressedWarningDemo",
+            "request": "launch",
+            "mainClass": "SuppressedWarningDemo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - OverrideAnnotaion",
+            "request": "launch",
+            "mainClass": "OverrideAnnotaion"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LocalizationDemo",
+            "request": "launch",
+            "mainClass": "LocalizationDemo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - reflectionDemo",
+            "request": "launch",
+            "mainClass": "reflectionDemo"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - InputStreamReaderDemo",
             "request": "launch",
             "mainClass": "InputStreamReaderDemo"
