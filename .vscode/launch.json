@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ComparatorDemo",
+            "request": "launch",
+            "mainClass": "ComparatorDemo"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - LambdaDemo",
             "request": "launch",
             "mainClass": "LambdaDemo",

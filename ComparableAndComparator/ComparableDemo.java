@@ -1,6 +1,3 @@
-
-// A Java program to demonstrate use of Comparable 
-import java.io.*;
 import java.util.*;
 
 // A class 'SuperHero' that implements Comparable 
@@ -10,8 +7,8 @@ class SuperHero implements Comparable<SuperHero> {
     private int ranking;
 
     // Used to sort SuperHeros by ranking
-    public int compareTo(SuperHero SuperHero) {
-        return this.ranking - SuperHero.ranking;
+    public int compareTo(SuperHero superHero) {
+        return this.ranking - superHero.ranking;
     }
 
     // Constructor
@@ -30,25 +27,30 @@ class SuperHero implements Comparable<SuperHero> {
         return name;
     }
 
-    public int getranking() {
+    public int getRanking() {
         return ranking;
     }
 }
 
-// Driver class
 class ComparableDemo {
     public static void main(String[] args) {
         ArrayList<SuperHero> list = new ArrayList<SuperHero>();
-        list.add(new SuperHero("Superman", 100, 1));
-        list.add(new SuperHero("Batman", 97.5, 2));
         list.add(new SuperHero("Wonder Woman", 95.7, 3));
         list.add(new SuperHero("Spiderman", 85.0, 4));
+        list.add(new SuperHero("Superman", 100, 1));
+        list.add(new SuperHero("Batman", 97.5, 2));
 
+        System.out.println("SuperHeros before sorting : ");
+        for (SuperHero SuperHero : list) {
+            System.out.println(SuperHero.getName()+" "+SuperHero.getpower()+" "+SuperHero.getRanking());
+        }
+
+        // sorts depending on the parameters specified in compareTo()
         Collections.sort(list);
 
-        System.out.println("SuperHeros after sorting : ");
+        System.out.println("\nSuperHeros after sorting : ");
         for (SuperHero SuperHero : list) {
-            System.out.println(SuperHero.getName() + " " + SuperHero.getpower() + " " + SuperHero.getranking());
+            System.out.println(SuperHero.getName()+" "+SuperHero.getpower()+" "+SuperHero.getRanking());
         }
     }
 }
